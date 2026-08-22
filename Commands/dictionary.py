@@ -2,6 +2,8 @@ import Commands as com
 commands = {
     "info": com.information,
     "help": com.help_information,
+    "echo" : com.echo,
+    "cont" : com.countTo
 
 
 }

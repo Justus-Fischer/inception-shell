@@ -15,6 +15,6 @@ while True:
     action = action.lower().split(" ")
     commandName = dic.get_command(action[0])
     if commandName == None:
-        print('Command "' + action[0] + '" not found!')
+        print('Command "' + action[0] + '" not found')
     else:
         commandName(action[1:])
