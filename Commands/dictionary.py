@@ -1,6 +1,7 @@
+import Commands as com
 commands = {
-    "info": "information",
-    "help": "help_information",
+    "info": com.information,
+    "help": com.help_information,
 
 
 }
