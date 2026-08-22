@@ -1,8 +1,10 @@
 from Commands import dictionary as dic
+import Commands as com
 
 print("Welcome to the Inception Shell!")
 print(" ")
 username = str(input("Please enter a username: "))
+com.set_username(username)
 print(" ")
 print(username + ": Type 'help' to get help")
 print(" ")

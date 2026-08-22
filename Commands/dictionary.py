@@ -3,7 +3,9 @@ commands = {
     "info": com.information,
     "help": com.help_information,
     "echo" : com.echo,
-    "cont" : com.countTo
+    "cont" : com.countTo,
+    "exit" : com.exit_shell,
+    "calc" : com.calculator,
 
 
 }
