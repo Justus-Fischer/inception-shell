@@ -29,6 +29,11 @@ def help_information(arguments):
 
 def echo(arguments):
     try:
+        if int(arguments[1]) > 500000:
+            print("This are many many words...")
+            print("Want to continute anyway? (y/n)")
+            if str(input(username + ": ").lower()) == "n":
+                return
         for i in range (int(arguments[1])):
             print(arguments[0])
         print(" ")

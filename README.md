@@ -17,7 +17,7 @@ And, of course, to implement some features typical of a shell.
 
 `exit` - to escape from the Inception Shell
 
-`echo word number` - will print `word` as often as you tell it by `echo`
+`echo word number` - will print your `word` as often as you tell it by `echo`
 
 `cont number` - will count to your `number` - if you want to print everything add `-y`
 

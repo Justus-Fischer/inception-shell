@@ -7,6 +7,12 @@ def set_username2(name):
 def build_wordskyscraper(arguments):
     print(" ")
     try:
+
+        if int(arguments[1]) > 100:
+            print("This will be a huge skyscraper")
+            print("Want to build anyway? (y/n)")
+            if str(input(username + ": ").lower()) == "n":
+                return
         text = arguments[0]
         height = int(arguments[1])
 
