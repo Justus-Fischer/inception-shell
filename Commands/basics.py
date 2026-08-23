@@ -100,6 +100,9 @@ def calculator(arguments):
     }
 
     try:
+        if len(arguments) == 2:
+            del arguments[1]
+
 
         for i in range (len(arguments)):
             arguments[i] = arguments[i].replace(" ", "")
