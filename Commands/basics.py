@@ -49,7 +49,7 @@ def countTo(arguments):
             arguments[0] = arguments[0].replace(",", "")
 
         if len(arguments) == 2 and  not arguments[1] == "":
-            if arguments[1] == "-y":
+            if arguments[1].lower() == "-y":
                 if int(arguments[0]) > 2500000:
                     print("This is a big number and might take a while to count to")
                     print("Want to continute anyway? (y/n)")
@@ -84,7 +84,7 @@ def countTo(arguments):
 
 def exit_shell(arguments):
     print("Really want to exit? (y/n)")
-    if str(input(username + ": ")) == "y":
+    if str(input(username + ": ").lower()) == "y":
         print("Wow you really used the exit command - Impressing...")
         print("Have a nice day!")
         exit()

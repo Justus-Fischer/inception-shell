@@ -6,6 +6,7 @@ commands = {
     "cont" : com.countTo,
     "exit" : com.exit_shell,
     "calc" : com.calculator,
+    "wsky" : com.build_wordskyscraper,
 
 
 }
